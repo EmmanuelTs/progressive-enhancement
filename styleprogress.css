@@ -1,10 +1,10 @@
 p { font-size: 16px;
     font-family: Arial, serif;
-    color: darkblue;
-margin-top: 1.5em;
-margin-bottom: 1.5em;}
+    color: dimgray;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;}
 a{color: yellowgreen;
-background-color: darkblue; text-decoration: none;}
+    background-color: darkblue; text-decoration: none;}
 a:visited {color: seagreen;
     background-color:lightskyblue;
     text-decoration:none;
@@ -12,7 +12,7 @@ a:visited {color: seagreen;
 
 }
 a:hover {color: darkblue;
-background-color: yellowgreen;}
+    background-color: yellowgreen;}
 
 
 
@@ -20,8 +20,10 @@ body {
     max-width: 90%;
     margin: auto 0;
     background: rgb(253,255,255);
-    background: linear-gradient(90deg, rgba(253,255,255,1) 0%, rgba(255,216,175,0.9868989832261029) 100%);
-}
+    background: linear-gradient(90deg, rgba(253,255,255,1) 0%, rgba(255,216,175,0.9868989832261029) 100%), no-repeat;
+    background-image: url("background css.jpg");
+  background-position: bottom right;
+background-size: cover;}
 
 blockquote {
     align-content: center;
@@ -35,9 +37,18 @@ blockquote {
 
     font-size: 160%;
     background-color: lightgray;
-    border-style: groove;
+    border-style: solid;
     border-width: 0 0 0 3px;
     padding: 30px;
 
 
 }
+
+ blockquote, q {
+    font-style: italic;
+}
+
+.villagers {color: orangered;}
+.farmer {color: yellow;}
+
+header > h1 {background-color: orangered}
