@@ -23,7 +23,8 @@ body {
     background: linear-gradient(90deg, rgba(253,255,255,1) 0%, rgba(255,216,175,0.9868989832261029) 100%), no-repeat;
     background-image: url("background css.jpg");
   background-position: bottom right;
-background-size: cover;}
+background-size: cover;
+font-family: 'Open Sans', sans-serif;}
 
 blockquote {
     align-content: center;
@@ -52,3 +53,23 @@ blockquote {
 .farmer {color: yellow;}
 
 header > h1 {background-color: orangered}
+
+.bad {
+    color: red;
+
+}
+
+.good {
+    color: green;
+}
+
+.good, .bad {
+    text-transform: uppercase;
+}
+
+.alternate1 {background-color: grey;}
+.alternate2 {background-color: white;}
+#first{font-weight: bold;}
+
+img {float:right;
+margin: 60px;}
