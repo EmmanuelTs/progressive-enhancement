@@ -7,15 +7,9 @@ a{color: yellowgreen;
     background-color: darkblue; text-decoration: none;}
 a:visited {color: seagreen;
     background-color:lightskyblue;
-    text-decoration:none;
-
-
-}
+    text-decoration:none;}
 a:hover {color: darkblue;
     background-color: yellowgreen;}
-
-
-
 body {
     max-width: 90%;
     margin: auto 0;
@@ -40,14 +34,10 @@ blockquote {
     background-color: lightgray;
     border-style: solid;
     border-width: 0 0 0 3px;
-    padding: 30px;
-
-
-}
+    padding: 30px;}
 
  blockquote, q {
-    font-style: italic;
-}
+    font-style: italic;}
 
 .villagers {color: orangered;}
 .farmer {color: yellow;}
@@ -55,17 +45,13 @@ blockquote {
 header > h1 {background-color: orangered}
 
 .bad {
-    color: red;
-
-}
+    color: red;}
 
 .good {
-    color: green;
-}
+    color: green;}
 
 .good, .bad {
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
 .alternate1 {background-color: grey;}
 .alternate2 {background-color: white;}
